@@ -8,9 +8,6 @@
 </head>
 <body>
     <div class="container">
-
-       
-
         <div class="registro">
             <div class="image">
                 <img src="background-image.svg" alt="">
@@ -20,19 +17,17 @@
                 <form action="">
                     <div class="email">
                         <label for="">
-                            <input type="email" name="" id="" placeholder="Email">
+                            <input type="email" name="" id="emailId" placeholder="Email">
                         </label>
                     </div>
-                   
                     <div class="password">
                         <label for="">
-                            <input type="password" placeholder="Password">
+                            <input type="password" id="passwordId"  placeholder="Password">
                         </label>
                     </div>
-                  
                   <div class="login">
                       <a href="">
-                          <button>Login</button>
+                          <button onclick="clicarLogin()">Login</button>
                       </a>
                   </div>
                   <div class="error">
@@ -48,5 +43,8 @@
             
         </div>
     </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
