@@ -91,3 +91,26 @@ body{
     width: 100%;
     max-width: 85%;
 }
+
+@media (max-width:768px){
+    .registro{
+        flex-direction: column;
+        max-width:70%;
+        height: 75vh;
+    }
+/* DADOS LOGIN */
+    .email input{
+        width: 60vw;
+    }
+    .password input{
+        width: 60vw;
+    }
+    .login button{
+        width: 60vw;
+    
+    }
+/* IMAGE */
+    .image img{
+        max-width: 100vw
+    }
+}
