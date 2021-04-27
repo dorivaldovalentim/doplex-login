@@ -119,6 +119,6 @@ body{
     .registro{
         flex-direction: column;
         max-width:50%;
-        height: 75vh;
+        height: 55vh;
     }
 }
