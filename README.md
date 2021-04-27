@@ -1,6 +1,7 @@
 <h1 align="center">Doplex Login</h1>
 
-![Tela de Login Doplex](capa-markdown.png)
+<!-- ![Tela de Login Doplex](capa-markdown.png) -->
+<img src="capa-markdown.png">
 
 
 ##Tecnologias Utilizadas:
